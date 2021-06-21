@@ -11,7 +11,7 @@ import LogError
 try:
     # [Some codes that may or may not give errors]
 
-except Exception as Any_Variable:
-    LogError.handle(file="FileName.log", error=Any_Variable)
+except:
+    LogError.handle(file="FileName.log", error=Exception)
 ```
 
